@@ -1,0 +1,80 @@
+// Copyright (c) Microsoft. All rights reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
+
+.layout-home {
+  padding: 0;
+
+  .hero {
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5em 0;
+      gap: 1em;
+
+      h1 {
+        font-size: calc(1.525rem + 3.3vw);
+        font-weight: 600;
+      }
+
+      .lead {
+        font-weight: 400;
+        font-size: calc(1.275rem + .3vw);
+      }
+
+      .actions {
+        display: flex;
+        gap: 1em;
+
+        .btn {
+          font-weight: 600;
+          @include button-size(.75em, 1.5em, 1.25em, .3em);
+        }
+      }
+    }
+  }
+
+  .quickstart {
+    section {
+      padding: 4em 0;
+      margin: 0;
+    }
+  }
+
+  .highlights {
+    display: flex;
+    gap: 1em 3em;
+    margin: 4em 0;
+
+    @include media-breakpoint-down(md) {
+      flex-direction: column;
+    }
+
+    section {
+      flex-grow: 1;
+      flex-basis: 0;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+      border-radius: 15px;
+      width: 260px;
+      h2 {
+        font-size: 14px;
+        margin:4px;
+        text-align: center;
+      }
+  
+      .content {
+        font-size: 16px;
+        margin: 5px;
+        img {
+          max-width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          border-radius: 2px;
+          box-shadow:none;
+        
+        }
+      }
+    }
+  }
+}

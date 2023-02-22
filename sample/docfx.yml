@@ -1,0 +1,16 @@
+template: ../
+exclude:
+- /**.cmd
+defaultLocale: fr-fr
+globalMetadata:
+  titleSuffix: docfx
+  menu_path: /menu.json
+  _appLogoPath: /favicon.ico
+  _appFooter: <span>Copyright © 2022 JM2K69 - <strong>DocFX</strong></span>
+  _appFooterIcon: assets/pngegg.png
+  _appTitle: Demo site
+  _enableSearch: true
+  _disableContribution: true
+  _enableNewTab: true
+xref: https://docs.microsoft.com/en-us/dotnet/.xrefmap.json
+markdownEngineName: markdig

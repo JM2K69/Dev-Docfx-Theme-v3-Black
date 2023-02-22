@@ -1,0 +1,69 @@
+#YamlMime:Home
+hero:
+  title: JM2K69 DocfxV3 Theme
+  description: |
+    Improved theme for Docfx V3.
+  actions:
+  - name: Get Started
+    href: getting-started.md
+
+quickstart:
+- title: Install docfx V3 beta 
+  content: |
+    - Install [.NET Core](https://www.microsoft.com/net/download)
+    - Install latest `docfx` pre release:
+    ```powershell
+    dotnet tool update -g docfx --version "3.0.0-*" --add-source https://docfx.pkgs.visualstudio.com/docfx/_packaging/docs-public-packages/nuget/v3/index.json
+    ```
+- title: Create a blank site
+  content: |
+    Create a blank site.
+    - Create a directory for your website:
+    ```powershell
+    mkdir my-website
+    cd my-website
+    ```
+    - Create a new website:
+    ```powershell
+    docfx new conceptual
+    ```
+- title: Change Template
+  content: |
+    Change your project's template to Volt DocfxV3 Theme.
+
+    ```yml
+      template: https://github.com/JM2K69/Docfx-Theme-v3-Black
+      exclude:
+      - specs/**
+      globalMetadata:
+        titleSuffix: docfx
+        menu_path: /menu.json
+        _appLogoPath: /favicon.ico
+        _appFooter: <span>Copyright © 2022 Jérôme Bezet-Torres - <strong>DocFX</strong></span>
+        _appTitle: Demo Site
+        _enableSearch: false
+        _disableContribution: true
+        _enableNewTab: true
+    ```
+- title: And Build! and Run
+  content: |
+    You van create a cmd file or bash script like this here build.cmd
+    ```bash
+    rd _site /s /q
+    docfx.exe build
+    docfx.exe serve
+    ```
+    Then when you change `Markdown Files` or settings just run `Build.cmd` 
+    - And Browse the url `http://localhost:8080` 
+
+highlights:
+- title: docfx functionnality
+  content: |
+    * Easy to use
+    * Cross-platform...
+- title: Theme can me modified
+  content: |
+    The JavaScript payload delivered is much more lightweight (currently) than the default Docfx V3 theme.
+- title: Built using Vite & TypeScript
+  content: |
+    JM2K69 Docfx V3 Theme uses Vite for it's frontend tooling, and TypeScript for it's scripting, making developing this theme much easier.

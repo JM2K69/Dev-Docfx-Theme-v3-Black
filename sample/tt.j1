@@ -1,0 +1,25 @@
+{
+  "template": "../",
+  "defaultLocale": "fr-fr",
+  "globalMetadata": {
+    "_appTitle": "Volt-DocFXV3-Theme",
+    "_appFooter": "Copyright (c) 2022 JM2K69 <br>Site built with DocFX V3",
+    "_appFooterIcon": "assets/vs-icon.png",
+    "menu_path": "menu.json"
+  },
+  "dotnet": {
+    "assemblies": [
+      "CatLibrary.dll"
+    ]
+  },
+  "files": [
+    "**",
+    "../README.md"
+  ],
+  "additionalFiles": [
+    "../README.md"
+  ],
+  "xref": [
+    "https://docs.microsoft.com/en-us/dotnet/.xrefmap.json"
+  ]
+}
