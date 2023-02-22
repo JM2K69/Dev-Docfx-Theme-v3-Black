@@ -58,6 +58,9 @@ docfx serve
 ```
 - Browse the url http://localhost:8080 
 
+## Demo site
+
+![alt](https://github.com/JM2K69/MaterialDesign_WPF_Creator/blob/master/asset/demo.gif)
 
 ## Development
 
