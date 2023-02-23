@@ -60,7 +60,7 @@ docfx serve
 
 ## Demo site
 
-![alt](https://github.com/JM2K69/MaterialDesign_WPF_Creator/blob/main/asset/demo.gif)
+![alt](https://github.com/JM2K69/Dev-Docfx-Theme-v3-Black/blob/main/asset/demo.gif)
 
 ## Development
 
