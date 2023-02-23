@@ -8,7 +8,7 @@
     "copy": "ts-node -T prepare-build.ts"
   },
   "devDependencies": {
-    "@types/node": "^18.7.15",
+    "@types/node": "^18.14.0",
     "sass": "^1.54.8",
     "terser": "^5.15.0",
     "ts-node": "^10.9.1",
