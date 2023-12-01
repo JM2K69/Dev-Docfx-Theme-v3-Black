@@ -18,7 +18,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "anchor-js": "^5.0.0",
-    "bootstrap": "^5.3.1",
+    "bootstrap": "^5.3.2",
     "highlight.js": "^11.8.0",
     "jsx-dom": "^8.0.7",
     "popper.js": "^1.16.1"
